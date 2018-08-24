@@ -1,0 +1,38 @@
+body{
+    background: url(../images/bg1.jpg) no-repeat 0px 0px;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 5%;
+
+}
+#nav{
+    width: 20%;
+    height: 700px;
+    text-align: center;
+    background-color: RGB(24,45,67);
+}
+
+.side-nav{
+    list-style-type: none;
+    background-color: RGB(24,47,65);
+    padding: 0px 0;
+
+}
+.side-nav li{
+    color: white;
+    text-decoration: none;
+    padding: 20px 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    text-decoration: none;
+}
+
+thead{
+    background-color: RGB(247,108,64);
+}
